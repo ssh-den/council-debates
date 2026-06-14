@@ -67,16 +67,38 @@ council_debates/
 
 ## Install
 
-From the project directory:
+Install the latest released version from PyPI:
 
 ```bash
 pip install council-debates
 ```
 
-For development and tests:
+Upgrade an existing installation:
 
 ```bash
-.venv/bin/python -m venv .venv
+pip install --upgrade council-debates
+```
+
+PyPI package:
+
+- https://pypi.org/project/council-debates/
+
+Install the latest code directly from GitHub:
+
+```bash
+pip install "git+https://github.com/ssh-den/council-debates.git"
+```
+
+Install a specific branch, tag, or commit:
+
+```bash
+pip install "git+https://github.com/ssh-den/council-debates.git@main"
+```
+
+For local development and tests from the repository:
+
+```bash
+python -m venv .venv
 . .venv/bin/activate
 pip install -r requirements-dev.txt
 ```
