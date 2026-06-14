@@ -4,12 +4,6 @@ Run multiple independent LLM roles against the same prompt, optionally rank thei
 
 `council-debates` is a small modular Python 3.11+ package for running debates between independent LLM roles through OpenAI-compatible APIs.
 
-Author: `ssh-den`
-
-Repository: [ssh-den/council-debates](https://github.com/ssh-den/council-debates)
-
-PyPI: [council-debates](https://pypi.org/project/council-debates/)
-
 The pipeline is deliberately strict:
 
 1. Each role is called separately with only its own `system_prompt` and the original user prompt.
