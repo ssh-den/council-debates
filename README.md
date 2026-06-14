@@ -175,14 +175,3 @@ This prevents early consensus, role contamination, and chain-of-thought leakage 
 ## Contributions / Acknowledgments
 
 The original idea of using multiple LLM roles in a council/debate setup comes from Andrej Karpathy's [`llm-council`](https://github.com/karpathy/llm-council/).
-
-## Release
-
-The repository intentionally does not use auto-triggered GitHub Actions workflows.
-
-Manual release flow:
-
-1. Run the `Create Release Tag` workflow against the target commit.
-2. Run `Publish to PyPI` and choose either `testpypi` or `pypi`.
-
-For trusted publishing, configure the `testpypi` and `pypi` environments in GitHub to trust this repository's workflows.
