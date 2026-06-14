@@ -205,6 +205,10 @@ tempCodeRunnerFile.py
 
 # Ruff stuff:
 .ruff_cache/
+.pylint.d/
+
+# macOS
+.DS_Store
 
 # PyPI configuration file
 .pypirc
